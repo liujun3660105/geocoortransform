@@ -6,7 +6,6 @@ module.exports = {
         filename:'[name].js',
         library:'geocoortransform',
         libraryTarget:'umd',
-        // targetExport: "default",
         globalObject: 'this',// 添加这个选项
         libraryExport:'default'
 
